@@ -92,3 +92,15 @@
     height: 70px;
     transition: .8s;
 }
+/* another set of hover rules for the diagonal button */
+.diagonal {
+    width: 0px;
+    height: 0px;
+    left: 0;
+    bottom: 0;
+}
+.wrapper a:hover .diagonal{
+    height: 70px;
+    width: 220px;
+    transition: .8s;
+}
