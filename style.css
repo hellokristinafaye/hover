@@ -48,7 +48,7 @@
     width: 220px;
     transition: .8s;
 }
-/* another set of hover rules for the to-left button */
+/*  set of hover rules for the to-left button */
 .to-left {
     width: 0px;
     height: 70px;
@@ -59,7 +59,7 @@
     width: 220px;
     transition: .8s;
 }
-/* another set of hover rules for the to-left button */
+/*  set of hover rules for the to-left button */
 .to-left {
     width: 0px;
     height: 70px;
@@ -70,7 +70,7 @@
     width: 220px;
     transition: .8s;
 }
-/* another set of hover rules for the to-top button */
+/*  set of hover rules for the to-top button */
 .to-top {
     width: 220px;
     height: 0px;
@@ -81,7 +81,7 @@
     height: 70px;
     transition: .8s;
 }
-/* another set of hover rules for the to-bottom button */
+/*  set of hover rules for the to-bottom button */
 .to-bottom {
     width: 220px;
     height: 0px;
@@ -92,7 +92,7 @@
     height: 70px;
     transition: .8s;
 }
-/* another set of hover rules for the diagonal button */
+/*  set of hover rules for the diagonal button */
 .diagonal {
     width: 0px;
     height: 0px;
