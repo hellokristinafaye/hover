@@ -81,3 +81,14 @@
     height: 70px;
     transition: .8s;
 }
+/* another set of hover rules for the to-bottom button */
+.to-bottom {
+    width: 220px;
+    height: 0px;
+    right: 0;
+    top: 0;
+}
+.wrapper a:hover .to-bottom{
+    height: 70px;
+    transition: .8s;
+}
