@@ -30,11 +30,32 @@
     position: absolute;
     /* width: 220px;
     height: 70px; */
-    left: 0;
-    top: 0;
+    transition: .8s ease-out;
     z-index: -1;
 }
+/* the below 3 rules create the hover effect */
+.wrapper a:hover {
+    color: #fff;
+    transition: 0.8s;
+}
 .to-right {
-    width: 220px;
+    width: 0px;
     height: 70px;
+    left: 0;
+    top: 0;
+}
+.wrapper a:hover .to-right{
+    width: 220px;
+    transition: .8s;
+}
+/* another set of hover rules for the to-left button */
+.to-left {
+    width: 0px;
+    height: 70px;
+    right: 0;
+    top: 0;
+}
+.wrapper a:hover .to-left{
+    width: 220px;
+    transition: .8s;
 }
