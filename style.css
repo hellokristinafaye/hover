@@ -10,3 +10,17 @@
     position:absolute;
 }
 /* the above rule centers the content in the middle of the page */
+.wrapper a {
+    width: 220px;
+    height: 70px;
+    text-decoration: none;
+    /* the above rule spaces the content out, and removes the underline */
+    border: 1px solid #ff0000;
+    color: #000;
+    font-size: 22px;
+    text-align: center;
+    line-height: 70px;
+    /* basically building these buttons from scratch. */
+    margin: 10px;
+    font-family: sans-serif;
+}
