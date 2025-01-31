@@ -59,3 +59,25 @@
     width: 220px;
     transition: .8s;
 }
+/* another set of hover rules for the to-left button */
+.to-left {
+    width: 0px;
+    height: 70px;
+    right: 0;
+    top: 0;
+}
+.wrapper a:hover .to-left{
+    width: 220px;
+    transition: .8s;
+}
+/* another set of hover rules for the to-top button */
+.to-top {
+    width: 220px;
+    height: 0px;
+    right: 0;
+    bottom: 0;
+}
+.wrapper a:hover .to-top{
+    height: 70px;
+    transition: .8s;
+}
