@@ -1,3 +1,12 @@
 * {
-    background: pink;
+    margin: 0;
+    padding: 0;
 }
+.wrapper {
+    display: inline-flex;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position:absolute;
+}
+/* the above rule centers the content in the middle of the page */
